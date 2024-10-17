@@ -1,30 +1,15 @@
-#include <iostream>
+// 62 str
 
-int main() {
-//	std::cout << "Hello world!" << std::endl;
-//
-//	int age {15};
-//	std::cout << "ur age = " << age << "\n";
+#include <iostream> // директива препроцессора
+// using std::cout;
+// using std::endl;
+using namespace std;
 
-	bool isAlive{true};
-	// Значение по умолчанию для переменных этого типа - false.
-	bool isDead{false};
-	
-	std::cout << "isAlive " << isAlive << std::endl;
-	std::cout << "isDead " << isDead << std::endl;
-	
-	
-	int a = 2;
-	std::cout << "a = " << a << std::endl;
-	a = 3;
-	std::cout << "a = " << a << std::endl;
-	a = 4;
-	std::cout << "a = " << a << std::endl;
+int main () { // Загноловок функции
+    cout << "Come up and C++ me some time2."; // Сообщение
+    cout << "\n"; // новая строка
+    cout << endl; // новая строка
+    cout << "You won't regred it!" << endl; // Сообщение 2
+    return 0; // Завершениен фУНКЦИИ main ()
 
-	// Константы
-	const int n {24};
-	std::cout << "Age = " << n << std::endl;
-	n {12};
-
-	return 0; 
-}
+} // конец тела функции
